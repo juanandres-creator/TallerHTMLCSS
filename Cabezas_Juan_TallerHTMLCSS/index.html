@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISTTE - Instituto Superior Tecnológico Tecnoecuatoriano</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="Imagen/Logo.jpg" alt="Logo del Instituto ISTTE">
+      <div>
+        <h1>TECNOECUATORIANO</h1>
+        <span>Instituto Superior Tecnológico</span>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#carreras">Carreras</a></li>
+        <li><a href="#vida">Vida Estudiantil</a></li>
+        <li><a href="#contacto" class="btn-contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO - Como la de la foto, pero a tu estilo -->
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <span class="etiqueta">25 AÑOS FORMANDO TALENTO</span>
+        <h2>Tu futuro tecnológico <br> empieza <strong>AQUÍ</strong></h2>
+        <p>Carreras tecnológicas en 2 años, con práctica real y alta empleabilidad en Ecuador.</p>
+        <a href="#carreras" class="btn-verde">Ver Carreras</a>
+        <a href="#contacto" class="btn-blanco">Admisiones 2026</a>
+      </div>
+      <div class="hero-img">
+        <img src="Imagen/Estudiantes.jpg" alt="Estudiante del ISTTE con uniforme en el campus">
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros">
+      <h2>¿Por qué estudiar en el ISTTE?</h2>
+      <div class="beneficios">
+        <article>
+          <h3>🎓 Título en 2 años</h3>
+          <p>Terminas rápido y sales a trabajar con título de tercer nivel tecnológico.</p>
+        </article>
+        <article>
+          <h3>💼 Práctica desde el inicio</h3>
+          <p>Laboratorios, talleres y convenios con empresas reales.</p>
+        </article>
+        <article>
+          <h3>📍 Quito y Santa Elena</h3>
+          <p>Dos sedes, horarios flexibles y modalidad presencial y en línea.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CARRERAS -->
+    <section id="carreras">
+      <h2>Nuestra Oferta Académica</h2>
+      <p>Elige tu carrera y construye tu futuro:</p>
+      <ol class="lista-carreras">
+        <li>Desarrollo de Software</li>
+        <li>Electromecánica</li>
+        <li>Administración</li>
+        <li>Marketing y Ventas</li>
+      </ol>
+
+      <table>
+        <tr><th>Carrera</th><th>Duración</th><th>Modalidad</th></tr>
+        <tr><td>Desarrollo de Software</td><td>2 años</td><td>Presencial / En línea</td></tr>
+        <tr><td>Electromecánica</td><td>2 años</td><td>Presencial</td></tr>
+        <tr><td>Administración</td><td>2 años</td><td>Presencial / En línea</td></tr>
+      </table>
+    </section>
+
+    <!-- VIDEO + GALERIA -->
+    <section id="vida">
+      <h2>Así se vive en el ISTTE</h2>
+      <div class="galeria">
+        <img src="Imagen/Quito.jpg" alt="Campus del ISTTE en Quito">
+        <img src="Imagen/Computacion.jpg" alt="Estudiantes en laboratorio de computación">
+        <img src="Imagen/Electromecanica.jpg" alt="Estudiantes en taller de electromecánica">
+      </div>
+      <video width="320" height="240" controls>
+        <source src="Videos/Vida.mp4" type="video/mp4">
+      </video>
+      <audio controls>
+        <source src="Audios/Isste.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <aside>
+      <h3>Dato ISTTE</h3>
+      <p>Más de 5.000 graduados trabajando en empresas de todo el país.</p>
+    </aside>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2>¿Quieres más información?</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="tu@correo.com">
+
+        <label for="carrera">Carrera de interés:</label>
+        <input type="text" id="carrera" name="carrera">
+
+        <input type="submit" value="Quiero que me llamen">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ISTTE - Versión estudiantil creada para proyecto académico | Quito - Ecuador</p>
+  </footer>
+
+</body>
+</html>
